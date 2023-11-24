@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+  scanservjs:
+    image: go4ble/scanservjs:v3.0.3-brother
+    build: .
